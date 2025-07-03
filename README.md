@@ -6,20 +6,16 @@ This repository organizes solutions for the [Data Structures and Algorithmic Thi
 
 ## Course Structure
 
-### Season 1: Core Algorithms
+### 📚 Course Content
 - Recursive Algorithms
 - Greedy Algorithms  
 - Dynamic Programming
 - Backtracking
 - Divide and Conquer
 - Graph Algorithms
-
-### Season 2: Data Structures
 - Fundamental Data Structures
 - Preprocessing and Optimization
 - Advanced Data Structures
-
-### Season 3: Applied Concepts
 - Algorithm Design Patterns
 - Problem Solving Techniques
 - Competitive Programming Approaches
