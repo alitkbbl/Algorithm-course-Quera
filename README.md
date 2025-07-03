@@ -1,6 +1,6 @@
 # Data Structures and Algorithmic Thinking Course Quera
 
-![image](https://github.com/user-attachments/assets/8f1cd00c-6a6d-4c13-b435-6770e9d28781)
+![image](https://github.com/user-attachments/assets/dceab8f9-3d56-45be-a038-195bb166b45c)
 
 This repository organizes solutions for the [Data Structures and Algorithmic Thinking course](https://quera.org/college/landpage/3016/data-structures-and-algorithmic-thinking) by Quera.
 
@@ -28,5 +28,5 @@ This repository organizes solutions for the [Data Structures and Algorithmic Thi
 ## 🚀 How to Run
 Navigate to any exercise folder and run:
 ```bash
-cd season1/exercise1-basic-syntax
+cd season[n]
 python main.py
