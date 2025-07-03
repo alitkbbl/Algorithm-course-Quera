@@ -1,6 +1,6 @@
 # Data Structures and Algorithmic Thinking Course Quera
 
-![Quera DSA Course Cover](https://quera.org/static/media/college/landpage/3016/cover.jpg)
+![Uploading image.png…]()
 
 This repository organizes solutions for the [Data Structures and Algorithmic Thinking course](https://quera.org/college/landpage/3016/data-structures-and-algorithmic-thinking) by Quera.
 
