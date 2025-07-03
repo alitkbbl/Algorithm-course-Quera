@@ -1,6 +1,6 @@
 # Data Structures and Algorithmic Thinking Course Quera
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8f1cd00c-6a6d-4c13-b435-6770e9d28781)
 
 This repository organizes solutions for the [Data Structures and Algorithmic Thinking course](https://quera.org/college/landpage/3016/data-structures-and-algorithmic-thinking) by Quera.
 
