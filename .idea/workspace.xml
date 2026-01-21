@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/season10/khastar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season10/majmoe_jozee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season10/moraba.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/season10/jozee_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/season10/jozee_matrix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +32,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.b_m_m.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bakhsh bandi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bazgashti.executor&quot;: &quot;Run&quot;,
-    &quot;Python.energy_khor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kaf_cake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.khastar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.majmoe_jozee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.n_ta_moratab.executor&quot;: &quot;Run&quot;,
-    &quot;Python.n_ta_moratab_behinetar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.n_vazir.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pas_gardani.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pomp_benzin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sudoku.executor&quot;: &quot;Run&quot;,
-    &quot;Python.takhte.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tedad_jaigasht.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yek_asb.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.b_m_m.executor": "Run",
+    "Python.bakhsh bandi.executor": "Run",
+    "Python.bazgashti.executor": "Run",
+    "Python.energy_khor.executor": "Run",
+    "Python.jozee_matrix.executor": "Run",
+    "Python.kaf_cake.executor": "Run",
+    "Python.khastar.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.majmoe_jozee.executor": "Run",
+    "Python.moraba.executor": "Run",
+    "Python.n_ta_moratab.executor": "Run",
+    "Python.n_ta_moratab_behinetar.executor": "Run",
+    "Python.n_vazir.executor": "Run",
+    "Python.pas_gardani.executor": "Run",
+    "Python.pomp_benzin.executor": "Run",
+    "Python.sudoku.executor": "Run",
+    "Python.takhte.executor": "Run",
+    "Python.tedad_jaigasht.executor": "Run",
+    "Python.yek_asb.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.khastar">
+  <component name="RunManager" selected="Python.moraba">
+    <configuration name="jozee_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-course-Quera" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season10/jozee_matrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="khastar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
@@ -107,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="n_vazir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="moraba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,33 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season7/n_vazir.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm-course-Quera" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season7/sudoku.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season10/moraba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.moraba" />
+        <item itemvalue="Python.jozee_matrix" />
         <item itemvalue="Python.khastar" />
         <item itemvalue="Python.majmoe_jozee" />
         <item itemvalue="Python.yek_asb" />
-        <item itemvalue="Python.n_vazir" />
-        <item itemvalue="Python.sudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -199,5 +201,16 @@
       <updated>1752864041152</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/season10/moraba.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
