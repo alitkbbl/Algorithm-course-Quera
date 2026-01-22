@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/season10/kamine_baze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season11/dfs_pishgo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,41 +31,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.b_m_m.executor": "Run",
-    "Python.bakhsh bandi.executor": "Run",
-    "Python.bazgashti.executor": "Run",
-    "Python.energy_khor.executor": "Run",
-    "Python.jozee_matrix.executor": "Run",
-    "Python.kado_mashti.executor": "Run",
-    "Python.kaf_cake.executor": "Run",
-    "Python.kamine_baze.executor": "Run",
-    "Python.khastar.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.majmoe_jozee.executor": "Run",
-    "Python.moraba.executor": "Run",
-    "Python.n_ta_moratab.executor": "Run",
-    "Python.n_ta_moratab_behinetar.executor": "Run",
-    "Python.n_vazir.executor": "Run",
-    "Python.pas_gardani.executor": "Run",
-    "Python.pomp_benzin.executor": "Run",
-    "Python.sudoku.executor": "Run",
-    "Python.takhte.executor": "Run",
-    "Python.tedad_jaigasht.executor": "Run",
-    "Python.yek_asb.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.b_m_m.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bakhsh bandi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bazgashti.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dfs_pishgo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.energy_khor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jozee_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kado_mashti.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kaf_cake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kamine_baze.executor&quot;: &quot;Run&quot;,
+    &quot;Python.khastar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.majmoe_jozee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.moraba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n_ta_moratab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n_ta_moratab_behinetar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n_vazir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pas_gardani.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pomp_benzin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Python.takhte.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tedad_jaigasht.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yek_asb.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kamine_baze">
+  <component name="RunManager" selected="Python.dfs_pishgo">
+    <configuration name="dfs_pishgo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm-course-Quera" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/dfs_pishgo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="jozee_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
@@ -132,28 +155,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="khastar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm-course-Quera" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season10/khastar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="moraba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dfs_pishgo" />
         <item itemvalue="Python.kamine_baze" />
         <item itemvalue="Python.kado_mashti" />
         <item itemvalue="Python.moraba" />
         <item itemvalue="Python.jozee_matrix" />
-        <item itemvalue="Python.khastar" />
       </list>
     </recent_temporary>
   </component>
