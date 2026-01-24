@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/season11/bfs_masiryab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season11/bfs_masriyad_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season11/dostyabi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season11/mosaferat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season11/padesha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +51,11 @@
     "Python.main.executor": "Run",
     "Python.majmoe_jozee.executor": "Run",
     "Python.moraba.executor": "Run",
+    "Python.mosaferat.executor": "Run",
     "Python.n_ta_moratab.executor": "Run",
     "Python.n_ta_moratab_behinetar.executor": "Run",
     "Python.n_vazir.executor": "Run",
+    "Python.padesha.executor": "Run",
     "Python.pas_gardani.executor": "Run",
     "Python.pomp_benzin.executor": "Run",
     "Python.sudoku.executor": "Run",
@@ -69,7 +72,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bfs_masriyad_input">
+  <component name="RunManager" selected="Python.padesha">
     <configuration name="bfs_masiryab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
@@ -136,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kado_mashti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mosaferat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,11 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season10/kado_mashti.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/mosaferat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kamine_baze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="padesha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/season11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season10/kamine_baze.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/padesha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.padesha" />
+        <item itemvalue="Python.mosaferat" />
         <item itemvalue="Python.bfs_masriyad_input" />
         <item itemvalue="Python.bfs_masiryab" />
         <item itemvalue="Python.dfs_pishgo" />
-        <item itemvalue="Python.kamine_baze" />
-        <item itemvalue="Python.kado_mashti" />
       </list>
     </recent_temporary>
   </component>
