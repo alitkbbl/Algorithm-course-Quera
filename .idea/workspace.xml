@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/season11/dostyabi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season11/mosaferat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season11/padesha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season11/ghotr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/season11/jadval.py" beforeDir="false" afterPath="$PROJECT_DIR$/season11/jadval.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,10 @@
     "Python.bfs_masiryab.executor": "Run",
     "Python.bfs_masriyad_input.executor": "Run",
     "Python.dfs_pishgo.executor": "Run",
+    "Python.dostyabi.executor": "Run",
     "Python.energy_khor.executor": "Run",
+    "Python.ghotr.executor": "Run",
+    "Python.jadval.executor": "Run",
     "Python.jozee_matrix.executor": "Run",
     "Python.kado_mashti.executor": "Run",
     "Python.kaf_cake.executor": "Run",
@@ -72,8 +74,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.padesha">
-    <configuration name="bfs_masiryab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ghotr">
+    <configuration name="dostyabi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/bfs_masiryab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/dostyabi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bfs_masriyad_input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ghotr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/bfs_masriyad_input.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/ghotr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dfs_pishgo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="jadval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/dfs_pishgo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/season11/jadval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ghotr" />
+        <item itemvalue="Python.dostyabi" />
+        <item itemvalue="Python.jadval" />
         <item itemvalue="Python.padesha" />
         <item itemvalue="Python.mosaferat" />
-        <item itemvalue="Python.bfs_masriyad_input" />
-        <item itemvalue="Python.bfs_masiryab" />
-        <item itemvalue="Python.dfs_pishgo" />
       </list>
     </recent_temporary>
   </component>
