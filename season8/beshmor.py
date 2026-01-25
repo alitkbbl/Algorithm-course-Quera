@@ -16,10 +16,8 @@ for _ in range(T):
     for x in A:
         ps += x
 
-        # تعداد ps[j] < ps - K
         left = bisect.bisect_left(sorted_ps, ps - K)
 
-        # تعداد ps[j] > ps + K
         right = len(sorted_ps) - bisect.bisect_right(sorted_ps, ps + K)
 
         answer += left + right
