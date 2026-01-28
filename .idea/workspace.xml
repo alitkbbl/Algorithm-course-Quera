@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sourceDS/deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDS/queue.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     "Python.bfs_masiryab.executor": "Run",
     "Python.bfs_masriyad_input.executor": "Run",
     "Python.dds.executor": "Run",
+    "Python.deque.executor": "Run",
     "Python.dfs_pishgo.executor": "Run",
     "Python.dostyabi.executor": "Run",
     "Python.energy_khor.executor": "Run",
