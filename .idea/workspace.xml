@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sourceDS/Skip_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceDS/Skip_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceDS/Skip_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "Python.2_3_tree.executor": "Run",
     "Python.BST.executor": "Run",
     "Python.Skip_list.executor": "Run",
+    "Python.Stack.executor": "Run",
     "Python.Trie.executor": "Run",
     "Python.bTree.executor": "Run",
     "Python.b_m_m.executor": "Run",
@@ -82,7 +83,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Stack">
+  <component name="RunManager" selected="Python.Skip_list">
     <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
@@ -195,8 +196,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Stack" />
         <item itemvalue="Python.Skip_list" />
+        <item itemvalue="Python.Stack" />
         <item itemvalue="Python.Trie" />
         <item itemvalue="Python.BST" />
         <item itemvalue="Python.bTree" />
