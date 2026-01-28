@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="" />
+    <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sourceDS/Trie.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +34,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.2_3_tree.executor": "Run",
+    "Python.BST.executor": "Run",
+    "Python.bTree.executor": "Run",
     "Python.b_m_m.executor": "Run",
     "Python.bakhsh bandi.executor": "Run",
     "Python.bazgashti.executor": "Run",
