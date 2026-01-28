@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceDS/Skip_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceDS/Skip_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceDS/linkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceDS/linkedList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,7 @@
     "Python.kaf_cake.executor": "Run",
     "Python.kamine_baze.executor": "Run",
     "Python.khastar.executor": "Run",
+    "Python.linkedList.executor": "Run",
     "Python.main.executor": "Run",
     "Python.majmoe_jozee.executor": "Run",
     "Python.mohasebe_tavan.executor": "Run",
@@ -83,7 +84,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Skip_list">
+  <component name="RunManager" selected="Python.linkedList">
     <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
@@ -172,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bTree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="linkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm-course-Quera" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sourceDS/bTree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sourceDS/linkedList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linkedList" />
         <item itemvalue="Python.Skip_list" />
         <item itemvalue="Python.Stack" />
         <item itemvalue="Python.Trie" />
         <item itemvalue="Python.BST" />
-        <item itemvalue="Python.bTree" />
       </list>
     </recent_temporary>
   </component>
