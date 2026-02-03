@@ -9,6 +9,7 @@ int main() {
     cin.tie(0);
 
     int q, k;
+
     if (!(cin >> q >> k)) return 0;
 
     set<int> landed_planes;
