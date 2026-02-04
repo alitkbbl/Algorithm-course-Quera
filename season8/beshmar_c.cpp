@@ -1,91 +1,61 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
-#include <sstream>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    string line;
+typedef long long ll;
 
-    // Read T
-    if (!getline(cin, line) || line.empty()) {
-        return;
+const int MAXN = 200000 + 1;
+
+ll a[MAXN], ps[MAXN];
+
+
+int binary_search(int l, int r, ll V)
+{
+    if (r - l <= 0)
+        return r; // interval has zero length
+    if (r - l == 1)
+    {
+        if (ps[l] >= V)
+            return l; // if ps[l] >= V then l
+        else
+            return r; // else r
     }
-
-    int T;
-    try {
-        T = stoi(line);
-    } catch (...) {
-        return;
-    }
-
-    for (int t = 0; t < T; t++) {
-        // Read n and K
-        if (!getline(cin, line) || line.empty()) {
-            break;
-        }
-
-        stringstream ss(line);
-        int n, K;
-        if (!(ss >> n >> K)) {
-            break;
-        }
-
-        // Read array A
-        if (!getline(cin, line) || line.empty()) {
-            break;
-        }
-
-        stringstream ss2(line);
-        vector<int> A(n);
-        bool valid = true;
-        for (int i = 0; i < n; i++) {
-            if (!(ss2 >> A[i])) {
-                valid = false;
-                break;
-            }
-        }
-
-        if (!valid) {
-            break;
-        }
-
-        // Calculate prefix sums
-        vector<long long> ps(n + 1);
-        ps[0] = 0;
-        long long current_sum = 0;
-        for (int i = 0; i < n; i++) {
-            current_sum += A[i];
-            ps[i + 1] = current_sum;
-        }
-
-        // Sort prefix sums
-        sort(ps.begin(), ps.end());
-
-        long long answer = 0;
-        int m = ps.size();
-
-        for (long long x : ps) {
-            int left_count = lower_bound(ps.begin(), ps.end(), x - K) - ps.begin();
-
-\
-            int right_idx = upper_bound(ps.begin(), ps.end(), x + K) - ps.begin();
-            int right_count = m - right_idx;
-
-            answer += (left_count + right_count);
-        }
-
-        cout << answer / 2 << endl;
-    }
+    int mid = (l + r) / 2;
+    if (ps[mid] >= V)
+        return binary_search(l, mid, V); // search in left part
+    else
+        return binary_search(mid, r, V); // search in right part
 }
 
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+int main()
+{
+    ios_base::sync_with_stdio(false), cin.tie(0);
 
-    solve();
+    int T;
+    cin >> T;
+
+    while (T--)
+    {
+        int n;
+        ll K;
+        cin >> n >> K;
+
+        ll ans = 0;
+        for (int i = 0; i < n; i++)
+        {
+            cin >> a[i];
+            ps[i + 1] = ps[i] + a[i]; // compute ps[i] as described.
+        }
+
+        sort(ps, ps + n + 1); // sort ps.
+
+        for (int i = 0; i <= n; i++)
+        {
+            int lb = binary_search(0, n + 1, ps[i] - K);     // find the first index bigger or equal to ps[i] - K
+            int rb = binary_search(0, n + 1, ps[i] + K + 1); // find the first index bigger than ps[i] + K
+            ans += n + 1 - (rb - lb); //(n + 1) - (rb - lb) is good pairs with ps[i].
+        }
+        cout << ans / 2 << '\n'; // each pair counted twice.
+    }
 
     return 0;
 }

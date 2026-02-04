@@ -1,80 +1,53 @@
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-vector<int> mergeTwoArrays(const vector<int>& arr1, const vector<int>& arr2) {
-    vector<int> result;
-    int p1 = 0, p2 = 0;
+const int MAXN = 5e6 + 10;
+int n, k, td = 0;
 
-    while (p1 < arr1.size() && p2 < arr2.size()) {
-        if (arr1[p1] < arr2[p2]) {
-            result.push_back(arr1[p1]);
-            p1++;
-        } else {
-            result.push_back(arr2[p2]);
-            p2++;
-        }
+int a[MAXN], b[MAXN];
+
+void solve(int l, int r)
+{ // will merge arrays [l, r) and sorted order is in [l*n, r*n);
+    if (r - l <= 1)
+        return; // array is sorted by default
+    int mid = (l + r) / 2;
+
+    solve(l, mid); // sort left part
+    solve(mid, r); // sort right part
+
+    int p1 = l * n, p2 = mid * n, cnt = 0;
+
+    // merge two sorted parts and sort [l*n, r*n)
+    while (p1 < mid * n || p2 < r * n)
+    {
+        if (p1 == mid * n)
+            b[cnt++] = a[p2++];
+        else if (p2 == r * n)
+            b[cnt++] = a[p1++];
+        else if (a[p1] < a[p2])
+            b[cnt++] = a[p1++];
+        else
+            b[cnt++] = a[p2++];
     }
 
-    // Add remaining elements from arr1
-    while (p1 < arr1.size()) {
-        result.push_back(arr1[p1]);
-        p1++;
-    }
-
-    // Add remaining elements from arr2
-    while (p2 < arr2.size()) {
-        result.push_back(arr2[p2]);
-        p2++;
-    }
-
-    return result;
+    for (int i = 0; i < (r - l) * n; i++)
+        a[i + l * n] = b[i];
 }
 
-vector<int> mergeKArrays(const vector<vector<int>>& arrays) {
-    if (arrays.size() == 1) {
-        return arrays[0];
-    }
+int main()
+{
+    cin >> n >> k;
 
-    int mid = arrays.size() / 2;
+    // input data.
+    for (int i = 0; i < k; i++)
+        for (int j = 0; j < n; j++)
+            cin >> a[td], td++;
 
-    // Split arrays into left and right halves
-    vector<vector<int>> left(arrays.begin(), arrays.begin() + mid);
-    vector<vector<int>> right(arrays.begin() + mid, arrays.end());
+    // sort arrays [0, k)
+    solve(0, k);
 
-    // Recursively merge left and right halves
-    vector<int> leftMerged = mergeKArrays(left);
-    vector<int> rightMerged = mergeKArrays(right);
-
-    // Merge the two merged halves
-    return mergeTwoArrays(leftMerged, rightMerged);
-}
-
-int main() {
-    int k, n;
-    cin >> k >> n;
-
-    vector<vector<int>> arrays(n);
-
-    // Read arrays
-    for (int i = 0; i < n; i++) {
-        arrays[i].resize(k);
-        for (int j = 0; j < k; j++) {
-            cin >> arrays[i][j];
-        }
-    }
-
-    // Merge all arrays
-    vector<int> result = mergeKArrays(arrays);
-
-    // Print result
-    for (size_t i = 0; i < result.size(); i++) {
-        cout << result[i];
-        if (i != result.size() - 1) {
-            cout << " ";
-        }
-    }
+    for (int i = 0; i < n * k; i++)
+        cout << a[i] << ' ';
     cout << endl;
 
     return 0;
