@@ -23,15 +23,15 @@ This repository organizes my solutions and learnings for the [Data Structures an
 ## Course Structure & Syllabus
 
 ### 📚 Course Content
-- [x] Recursive Algorithms
-- [x] Greedy Algorithms  
-- [x] Dynamic Programming
-- [x] Backtracking
-- [x] Divide and Conquer
-- [x] Graph Algorithms
-- [x] Fundamental Data Structures
-- [x] Preprocessing and Optimization
-- [x] Advanced Data Structures
-- [x] Algorithm Design Patterns
-- [x] Problem Solving Techniques
-- [x] Competitive Programming Approaches
+- Recursive Algorithms
+- Greedy Algorithms  
+- Dynamic Programming
+- Backtracking
+- Divide and Conquer
+- Graph Algorithms
+- Fundamental Data Structures
+- Preprocessing and Optimization
+- Advanced Data Structures
+- Algorithm Design Patterns
+- Problem Solving Techniques
+- Competitive Programming Approaches
