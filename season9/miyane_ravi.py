@@ -37,6 +37,5 @@ def solve():
 
     sys.stdout.write('\n'.join(results) + '\n')
 
-
 if __name__ == "__main__":
     solve()
