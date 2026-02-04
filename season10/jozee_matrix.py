@@ -1,14 +1,15 @@
-n, q = map(int, input().split())
-matrix = []
-for _ in range(n):
-    matrix.append(list(map(int, input().split())))
+n, q = list(map(int, input().split(" ")))
 
-prefix = [[0] * (n + 1) for _ in range(n + 1)]
+ps = [[0] * (n + 1) for i in range(n + 1)]
+
+A = []
 for i in range(n):
+    B = list(map(int, input().split(" ")))
     for j in range(n):
-        prefix[i + 1][j + 1] = matrix[i][j] + prefix[i][j + 1] + prefix[i + 1][j] - prefix[i][j]
+        ps[i + 1][j + 1] = B[j] + ps[i][j + 1] + ps[i + 1][j] - ps[i][j]
 
-for _ in range(q):
-    x1, y1, x2, y2 = map(int, input().split())
-    total = (prefix[x2 + 1][y2 + 1] - prefix[x1][y2 + 1] - prefix[x2 + 1][y1] + prefix[x1][y1])
-    print(total)
+for i in range(q):
+    l1, r1, l2, r2 = list(map(int, input().split(" ")))
+    l2 += 1
+    r2 += 1
+    print(ps[l2][r2] - ps[l2][r1] - ps[l1][r2] + ps[l1][r1])
