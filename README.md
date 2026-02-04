@@ -9,7 +9,7 @@
 
   <!-- Verification Badge -->
   <a href="https://quera.org/media/public/quera_certificate/8bed1de25bf14124b61dce9b2b48d607.jpg">
-    <img src="https://img.shields.io/badge/Verify_Certificate-ReOF8EHI-2ea44f?style=for-the-badge&logo=security" alt="Verify Certificate">
+    ![quera-certificate](https://github.com/user-attachments/assets/21fba3eb-e84d-4614-8e7a-44bc301920c4)
   </a>
   
   <p><strong>Recipient:</strong> Ali Taghizadeh | <strong>Score:</strong> PERFECT | <strong>Date:</strong> February 2026</p>
