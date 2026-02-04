@@ -10,7 +10,7 @@
   <br>
 
   <!-- Verification Badge -->
-  <a href="https://quera.org/certificate/ReOF8EHI">
+  <a href="https://quera.org/media/public/quera_certificate/8bed1de25bf14124b61dce9b2b48d607.jpg">
     <img src="https://img.shields.io/badge/Verify_Certificate-ReOF8EHI-2ea44f?style=for-the-badge&logo=security" alt="Verify Certificate">
   </a>
   
