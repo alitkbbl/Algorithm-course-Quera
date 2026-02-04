@@ -1,37 +1,31 @@
-import sys
-sys.setrecursionlimit(10**7)
+def partition(arr, l, r):
+    i = l
+    pivot = arr[l]
 
-input = sys.stdin.readline
-
-n = int(input())
-a = list(map(int, input().split()))
-
-stack = [(0, n - 1)]
-result = []
-
-while stack:
-    l, r = stack.pop()
-    if l >= r:
-        continue
-
-    pivot = a[l]
-    result.append(str(pivot))
-
-    i = l + 1
-    j = r
-
-    while i <= j:
-        while i <= r and a[i] < pivot:
+    for j in range(l + 1, r + 1):
+        if arr[j] <= pivot:
             i += 1
-        while j > l and a[j] >= pivot:
-            j -= 1
-        if i < j:
-            a[i], a[j] = a[j], a[i]
+            arr[i], arr[j] = arr[j], arr[i]
 
-    a[l], a[j] = a[j], a[l]
-    p = j
+    arr[i], arr[l] = arr[l], arr[i]
+    return i
 
-    stack.append((p + 1, r))
-    stack.append((l, p - 1))
+def quick_sort(arr, l, r):
+    if r - l <= 0:
+        return
 
-print(" ".join(result))
+    pivot = partition(arr, l, r)
+    print(arr[pivot], end=' ')
+
+    quick_sort(arr, l, pivot - 1)
+    quick_sort(arr, pivot + 1, r)
+
+def main():
+    n = int(input())
+    arr = list(map(int, input().split()))
+
+    quick_sort(arr, 0, n - 1)
+    print()
+
+if __name__ == "__main__":
+    main()

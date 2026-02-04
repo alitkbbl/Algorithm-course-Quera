@@ -1,24 +1,49 @@
 import sys
-sys.setrecursionlimit(10**7)
 
-n = int(sys.stdin.readline())
-p = list(map(int, sys.stdin.readline().split()))
+sys.setrecursionlimit(2000)
 
-from functools import lru_cache
 
-@lru_cache(None)
-def solve(l, r):
-    if r - l == 1:
-        return p[l]
+def solve():
+    input_data = sys.stdin.read().split()
 
-    mid = (l + r) // 2
+    if not input_data:
+        return
 
-    left_max = max(p[l:mid])
-    option1 = left_max + solve(mid, r)
+    iterator = iter(input_data)
 
-    right_max = max(p[mid:r])
-    option2 = right_max + solve(l, mid)
+    try:
+        n = int(next(iterator))
+    except StopIteration:
+        return
 
-    return max(option1, option2)
+    num_teams = 1 << n
 
-print(solve(0, 1 << n))
+    p = [int(next(iterator)) for _ in range(num_teams)]
+
+    def get_max_prize(start, end):
+        if start + 1 == end:
+            val = p[start]
+            return val, val
+
+        mid = (start + end) // 2
+
+        max_l, prize_l = get_max_prize(start, mid)
+        max_r, prize_r = get_max_prize(mid, end)
+
+        current_max = max_l if max_l > max_r else max_r
+
+        option1 = prize_l + max_r
+
+        option2 = prize_r + max_l
+
+        current_prize = option1 if option1 > option2 else option2
+
+        return current_max, current_prize
+
+    _, final_answer = get_max_prize(0, num_teams)
+
+    print(final_answer)
+
+
+if __name__ == '__main__':
+    solve()
