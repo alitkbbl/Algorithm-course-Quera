@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/season10/bishine_in_array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season10/jozee_in_array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season10/kamine.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/season11/cpp/jadval.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
