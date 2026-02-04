@@ -20,9 +20,3 @@ This repository organizes solutions for the [Data Structures and Algorithmic Thi
 - Problem Solving Techniques
 - Competitive Programming Approaches
 
-
-## 🚀 How to Run
-Navigate to any exercise folder and run:
-```bash
-cd season[n]
-python main.py
