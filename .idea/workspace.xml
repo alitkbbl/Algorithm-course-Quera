@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="" />
+    <list default="true" id="2e607702-f4e8-4ab6-becf-83399fa5b9b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,60 +30,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.2_3_tree.executor": "Run",
-    "Python.BST.executor": "Run",
-    "Python.Skip_list.executor": "Run",
-    "Python.Stack.executor": "Run",
-    "Python.Trie.executor": "Run",
-    "Python.bTree.executor": "Run",
-    "Python.b_m_m.executor": "Run",
-    "Python.bakhsh bandi.executor": "Run",
-    "Python.bazgashti.executor": "Run",
-    "Python.bfs_masiryab.executor": "Run",
-    "Python.bfs_masriyad_input.executor": "Run",
-    "Python.daste_be_daste.executor": "Run",
-    "Python.dds.executor": "Run",
-    "Python.deque.executor": "Run",
-    "Python.dfs_pishgo.executor": "Run",
-    "Python.dostyabi.executor": "Run",
-    "Python.energy_khor.executor": "Run",
-    "Python.ghotr.executor": "Run",
-    "Python.hash_table.executor": "Run",
-    "Python.jadval.executor": "Run",
-    "Python.jozee_matrix.executor": "Run",
-    "Python.kado_mashti.executor": "Run",
-    "Python.kaf_cake.executor": "Run",
-    "Python.kamine_baze.executor": "Run",
-    "Python.khastar.executor": "Run",
-    "Python.linkedList.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.majmoe_jozee.executor": "Run",
-    "Python.mohasebe_tavan.executor": "Run",
-    "Python.moraba.executor": "Run",
-    "Python.mosaferat.executor": "Run",
-    "Python.n_ta_moratab.executor": "Run",
-    "Python.n_ta_moratab_behinetar.executor": "Run",
-    "Python.n_vazir.executor": "Run",
-    "Python.na_be_jaee.executor": "Run",
-    "Python.padesha.executor": "Run",
-    "Python.pas_gardani.executor": "Run",
-    "Python.pivot_kojast.executor": "Run",
-    "Python.pol_ya_vejdan.executor": "Run",
-    "Python.pomp_benzin.executor": "Run",
-    "Python.queue.executor": "Run",
-    "Python.red_black_tree.executor": "Run",
-    "Python.sudoku.executor": "Run",
-    "Python.takhte.executor": "Run",
-    "Python.tedad_jaigasht.executor": "Run",
-    "Python.yek_asb.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.2_3_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BST.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Skip_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Trie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bTree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.b_m_m.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bakhsh bandi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bazgashti.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bfs_masiryab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bfs_masriyad_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.daste_be_daste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deque.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dfs_pishgo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dostyabi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.energy_khor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ghotr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hash_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jadval.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jozee_matrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kado_mashti.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kaf_cake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kamine_baze.executor&quot;: &quot;Run&quot;,
+    &quot;Python.khastar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.majmoe_jozee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mohasebe_tavan.executor&quot;: &quot;Run&quot;,
+    &quot;Python.moraba.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mosaferat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n_ta_moratab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n_ta_moratab_behinetar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.n_vazir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.na_be_jaee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.padesha.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pas_gardani.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pivot_kojast.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pol_ya_vejdan.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pomp_benzin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.red_black_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Python.takhte.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tedad_jaigasht.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yek_asb.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sourceDS" />
