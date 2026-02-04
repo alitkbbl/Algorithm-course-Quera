@@ -2,10 +2,8 @@
 
 <div align="center">
   
-  <!-- Certificate Image linked to verification page -->
-  <a href="https://quera.org/certificate/ReOF8EHI">
-    <img src="https://github.com/user-attachments/assets/dceab8f9-3d56-45be-a038-195bb166b45c" alt="Quera Certificate - Ali Taghizadeh" width="800">
-  </a>
+![quera-certificate](https://github.com/user-attachments/assets/050a4c7b-c463-4a4a-a671-5ec14fdfcd79)
+
 
   <br>
 
