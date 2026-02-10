@@ -3,6 +3,7 @@ import bisect
 
 
 def process_cut(pos, cuts, lengths):
+    
     idx = bisect.bisect_right(cuts, pos)
 
     r = cuts[idx]
